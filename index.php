@@ -13,22 +13,26 @@
 <?php include_once("navigation.php")?>
 
 
-<div id="main">
+<div class="container">
 <section id="about">
-about
-about
+<video autoplay loop poster="polina.jpg" id="bgvid">
+    <source src="vedio/clouds.mp4" type="video/mp4">
+</video>
 </section>
+</div>
 
+<div class="container">
 <section id="work">
 work
 work
 </section>
+</div>
 
 <section id="contact">
 contact
 contact
 </section>
 
-</div>
+
 </body>
 </html>
