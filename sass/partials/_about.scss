@@ -1,14 +1,15 @@
 /* CSS Document */
 video#bgvid { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: static;
+    
+    
     min-width: 100%;
     min-height: 80%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -100;/*overlap order*/
-    -webkit-transform: translateX(-50%) translateY(-70%);
-    transform: translateX(-50%) translateY(-70%);
+    -webkit-transform:  translateY(-22);
+    transform: translateY(-22%);
+	/*background: url(polina.jpg) no-repeat;*/
     background-size: cover; 
 }
