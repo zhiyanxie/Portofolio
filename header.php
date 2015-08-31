@@ -4,6 +4,12 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
+<?php
+	require_once('scripts/Mobile_Detect.php');
+	$detect = new Mobile_Detect;
+?>
+
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -26,6 +32,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+<script src="js/widthAdjust.js"></script>
 
 </head>
 

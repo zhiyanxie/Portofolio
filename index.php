@@ -7,25 +7,44 @@
 ?>
 
 
-<body>
+<body class="home <?php if($detect->isMobile()) {echo 'mobile';} ?>">
 
-<!-- nav-->
+<!-- nav -->
 <?php include_once("navigation.php")?>
+<!-- about -->
 
 
 
-<video autoplay loop poster="polina.jpg" id="bgvid">
-    <source src="vedio/clouds.mp4" type="video/mp4">
-</video>
+<?php if(!$detect->isMobile()):?>
 
 
-<div class="container">
+<div class="veidoContainer">
+     <video autoplay loop  id="vid">
+            <source src="vedio/clouds.mp4" type="video/mp4">
+     </video>
+     <div class="intro">
+         <p>Think. Create. Design</p>
+         <p>ZHIYAN XIE</p>
+         <p>FRONT-END-DEVELOPER,UX DESIGNER</p>
+         
+     </div>
+</div>
+
+
+
+<?php endif;?>
+
+<!-- work -->
+
 <section id="work">
+1
 work
 work
 </section>
-</div>
 
+
+
+<!-- contact -->
 <section id="contact">
 contact
 contact
