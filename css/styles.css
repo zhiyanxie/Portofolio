@@ -10,16 +10,32 @@ html {
 .center-y {
   text-align: center; }
 
+.heading {
+  margin: 75px 0;
+  text-align: center;
+  font-size: 50px; }
+
+.subtitle {
+  font-size: 10px;
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: none; }
+
+.project {
+  height: 100px; }
+
 /* CSS Document */
 @media screen and (max-width: 500px) {
   .intro {
+    top: 2px      !important;
     left: 2px     !important; } }
 /*partials*/
 /* CSS Document */
-.veidoContainer {
+.vedioContainer {
   position: static;
   width: 100%;
-  height: 540px;
+  height: auto;
   overflow: hidden;
   z-index: -2; }
 
@@ -44,5 +60,17 @@ body {
   border-color: transparent; }
 
 /* CSS Document */
+#resume_github {
+  overflow: hidden; }
+
+/* CSS Document */
+#work {
+  overflow: hidden; }
+
+.project {
+  height: 100px; }
+
+.projects {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
