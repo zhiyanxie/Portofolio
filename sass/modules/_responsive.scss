@@ -2,7 +2,9 @@
 
 @media screen and (max-width: 500px) {
     .intro {
-	   top:2px      !important;
-       left: 2px     !important;
+	   top:4px !important;
+	   .about_subtitle{
+		   display:none  !important;}
+		   
+	   }
     }
-}

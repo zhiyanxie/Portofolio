@@ -8,9 +8,10 @@
 }
 
 .heading {
-	margin: 75px 0;
+	margin: 75px;
 	text-align: center;
 	font-size:50px;
+	
 }
 .subtitle {
 	font-size:10px;
@@ -19,6 +20,14 @@
 	text-transform: uppercase;
 	text-shadow: none;
 }
-.project{
-	height:100px;
+
+h4{  
+    padding-top:15px;
+	text-align:center;
+}
+.description{
+	text-align:center;
+}
+.link{
+	text-align:center;
 }
