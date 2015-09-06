@@ -150,11 +150,33 @@ a:active {
   overflow: hidden; }
 
 .project {
-  height: 150px;
+  height: 200px;
   margin-top: 15px; }
 
-.projects {
-  margin-top: 10px; }
+.description:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+  -webkit-transition-duration: 2s;
+  /* Safari */
+  transition-duration: 2s; }
+
+.description {
+  height: 80%;
+  width: 80%;
+  background-color: red;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out;
+  -webkit-transition-duration: 2s;
+  /* Safari */
+  transition-duration: 2s; }
 
 /* CSS Document */
 .component {
@@ -250,5 +272,12 @@ a:active {
 
 .icon-cube.rss::after {
   background-color: #ee802f; }
+
+/*email*/
+.form-control {
+  border: none   !important; }
+
+textarea {
+  resize: none   !important; }
 
 /*# sourceMappingURL=styles.css.map */

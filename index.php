@@ -3,7 +3,7 @@
 
     $meta_title = "Zhiyan Xie | Web Developer";
     include_once("header.php") ;
-
+    
 ?>
 
 
@@ -42,15 +42,14 @@
 <div class="container">
    <div class="row">
     <ul class="list-unstyled">
-      <li class="col-md-3  col-sm-12 project" style="background-color:lavender;">
-        <a href="ml">
-              <div class="one">
-						<div class="description">
+      <li class="col-md-3  col-sm-12 project";>
+        <a href="#">
+           
+			<div class="description">
 								<h4>Machine Learning</h4>
 								<span class="snippet">Analyzed patient data with Relative Comparisons (SVM) in Matlab.</span>
 								<span class="link">View Case Study</span>
-					    </div>
-			</div>
+			</div>  
         </a>
       </li>
       <li class="col-md-9 col-sm-12 two project" style="background-color:lavenderblush;"> Boring Online Game</li>
@@ -89,17 +88,43 @@
 
 <!-- contact -->
 <section id="contact">
-<h1 class="heading">
+     <h1 class="heading">
 			<span class="title">Contact</span>
 			<span class="subtitle">Currently available for hire</span>
 			<span class="subtitle">Don't hesitate,Would love to hear from you</span>
-	</h1>
+	 </h1>
   <!-- email-->
+     <div class="container center-x">
+            <form id="ajax-contact" method="post" action="scripts/mailer.php" role="form" >
+								<div class="input form-group">							
+									<label class="name" for="name"></label>
+									<input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required/>
+                                   
+								</div>
+
+								<div class="input form-group">
+									<label class="email" for="email"></label>
+									<input class="form-control" type="email" id="email" name="email" placeholder="Your Email" required/>
+                                  
+								</div>
+
+								<div class="input form-group">
+									<label class="message" for="message"></label>
+                                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button class="btn btn-default" type="submit">Submit</button>
+                                <div id="form-messages"></div>
+                               
+	        </form>
+     
+  
+     </div>
  
-   <!--icon-->
    
 
 </section>
-
+  
+   <script src="js/app.js"></script>
+   
 </body>
 </html>
